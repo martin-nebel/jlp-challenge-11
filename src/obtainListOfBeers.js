@@ -50,7 +50,7 @@ function obtainListOfBeers(incomingJsonAsString) {
       .sort(sortByBeerNameThenPubName())
       ;
   } catch (err) {
-    return "Error: " + err;
+    return [];
   }  
 }
 
